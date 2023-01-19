@@ -1,0 +1,61 @@
+
+*{
+    box-sizing: border-box;
+}
+body{
+    background-image:url('images/image1.jpg');
+    background-size:1500px 1200px;
+    background-repeat: no-repeat;
+    height: 100%;
+    background-position: center center;
+    
+    margin: auto auto;
+}
+.img1{
+    position: absolute;
+    padding-top: 1%;
+    top: 15px;
+    left: 10px;
+    height: 200px;
+    width: 250px;
+  }
+  .img2{
+    position: absolute;
+    padding-top: 1%;
+    /* padding-right: 30px; */
+    top: 20px;
+    right: 10px;
+    height: 150px;
+    width: 150px;
+  }
+.first{
+    color: white;
+    margin: auto;
+    font-size: 44px;
+    font-weight: bold;
+    font-family: cursive;
+    padding: 70px;
+    /* float: left; */
+    /* gap: 60px; */
+    /* padding: 20px 20px;
+    height: 20px;
+    position: center; */
+}
+.navbar li{
+    /* color:white; */
+   
+    /* background-color: rgb(154, 213, 228); */
+    /* border-radius: 5px; */
+    overflow: auto;
+    text-decoration: none;
+    
+    margin: 20px 20px;
+    list-style: none;
+    float: left;
+    padding: 3px 3px;
+
+    
+}
+.navbar a:hover{
+    background-color:rgb(152, 243, 243);
+}
